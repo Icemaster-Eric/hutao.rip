@@ -1,35 +1,64 @@
-:root.light {
-    --bg-1: #ede0d4;
-    --bg-2: #e6ccb2;
-    --bg-3: #ddb892;
-    --fg-1: #b08968;
-    --fg-2: #9c6644;
-    --fg-3: #7f5539;
-    --th-1: #da1e37;
-    --th-2: #b21e35;
-}
-
-:root.dark {
-    --bg-1: #7f5539;
-    --bg-2: #9c6644;
-    --bg-3: #b08968;
-    --fg-1: #ddb892;
-    --fg-2: #e6ccb2;
-    --fg-3: #ede0d4;
-    --th-1: #da1e37;
-    --th-2: #b21e35;
+:root {
+    --fg: #f3f6ff;
+    --bg: #070707;
+    --bg-sec: #3a302d;
+    --accent: #C52233;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
     font-style: normal;
-    background-color: var(--bg-1);
-    color: var(--fg-3);
+    font-variation-settings: "slnt" 0;
+    background-color: var(--bg);
+    color: var(--fg);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Roboto", serif;
-    font-weight: 400;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
     font-style: normal;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#frontpage-horizontal-layout {
+    display: flex;
+    align-items: center;
 }

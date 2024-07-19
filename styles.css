@@ -1,15 +1,35 @@
 :root.light {
-    --bg-1: #F8EDE3;
-    --bg-2: #DFD3C3;
-    --bg-3: #D0B8A8;
-    --th-1: #8D493A;
-    --th-2: #E84545;
+    --bg-1: #ede0d4;
+    --bg-2: #e6ccb2;
+    --bg-3: #ddb892;
+    --fg-1: #b08968;
+    --fg-2: #9c6644;
+    --fg-3: #7f5539;
+    --th-1: #da1e37;
+    --th-2: #b21e35;
 }
 
 :root.dark {
-    --bg-1: #F8EDE3;
-    --bg-2: #DFD3C3;
-    --bg-3: #D0B8A8;
-    --th-1: #8D493A;
-    --th-2: #E84545;
+    --bg-1: #7f5539;
+    --bg-2: #9c6644;
+    --bg-3: #b08968;
+    --fg-1: #ddb892;
+    --fg-2: #e6ccb2;
+    --fg-3: #ede0d4;
+    --th-1: #da1e37;
+    --th-2: #b21e35;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--bg-1);
+    color: var(--fg-3);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
 }

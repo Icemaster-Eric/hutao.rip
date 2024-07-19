@@ -1,0 +1,15 @@
+:root.light {
+    --bg-1: #F8EDE3;
+    --bg-2: #DFD3C3;
+    --bg-3: #D0B8A8;
+    --th-1: #8D493A;
+    --th-2: #E84545;
+}
+
+:root.dark {
+    --bg-1: #F8EDE3;
+    --bg-2: #DFD3C3;
+    --bg-3: #D0B8A8;
+    --th-1: #8D493A;
+    --th-2: #E84545;
+}

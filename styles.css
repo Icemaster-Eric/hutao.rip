@@ -1,6 +1,6 @@
 :root {
-    --fg: #f3f6ff;
-    --bg: #070707;
+    --fg: #070707;
+    --bg: #F7F1E6;
     --bg-sec: #3a302d;
     --accent: #C52233;
 }
@@ -58,7 +58,29 @@ a:hover {
     text-decoration: underline;
 }
 
-#frontpage-main-layout {
+#landing-img {
+    background-image: url("/assets/hu-landing.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    box-shadow: 0px -20px 10px -10px #F7F1E6 inset;
+}
+
+#frontpage-text-container {
+    position: absolute;
+    top: 43%;
+    width: 100%;
     display: flex;
-    align-items: center;
+    justify-content: space-evenly;
+    gap: 30%;
+}
+
+#frontpage-text-container > h2 {
+    font-size: 10vw;
 }
